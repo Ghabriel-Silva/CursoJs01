@@ -5,8 +5,8 @@ console.log(umtext.concat(' texto' , ' escrito' , ' aqui' ));
 console.log(umtext+ ' texto escrito aqui');
 console.log(`${umtext} texto escrito aqui`);
 
-console.log(umtext.indexOf('certo')); //Retorna o valor do inicio do indice da palavra desejada.
-console.log(umtext.lastIndexOf('certo')) // Retorna o valor do final do indice da palavra desejada
+console.log(umtext.indexOf('a')); //Retorna o valor do inicio do indice da palavra desejada.
+console.log(umtext.lastIndexOf('a')) // Retorna o valor do final do indice da palavra desejada
 console.log(umtext.replace(/e/g, '#')) // substiui a letra desejada por outra desejada.
 console.log(umtext.length) // retorna o numeros de caracteres da string.
 console.log(umtext.slice(1, 4)) //retorna a parte desejada da string.
