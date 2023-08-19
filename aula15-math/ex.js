@@ -10,12 +10,14 @@
 
 const numero = Number(prompt('Digite um number!'));
 const numerotitulo = document.getElementById('Numero-text');
-const sectiondiv = document.getElementById('texto');
+const texto = document.getElementById('texto');
 
 numerotitulo.innerHTML = numero; 
-sectiondiv.innerHTML = `<p>Raiz quadrada: ${Math.sqrt(numero)}</p>`;
-sectiondiv.innerHTML = `<p>${numero} é um numero inteiro? ${isInteger(numero)}</p>`
-sectiondiv.innerHTML = `<p>Este numero é um Nan? ${isNaN(numero)}</p>`;
-sectiondiv.innerHTML = `<p>Arredondamento para baixo: ${Math.floor(numero)}</p>`;
-sectiondiv.innerHTML = `<p>Arredondamento para cima: ${Math.ceil(numero)}</p>`;
-sectiondiv.innerHTML = `<p>Com duas casas decimais: ${numero.tofixed(2)}</p>`
+
+texto.innerHTML = '';
+texto.innerHTML += `<p>Raiz quadrada: ${Math.sqrt(numero)}</p>`;
+texto.innerHTML += `<p>${numero} é um numero inteiro? ${Number.isInteger(numero)}</p>`;
+texto.innerHTML += `<p>Este numero é um Nan? ${isNaN(numero)}</p>`;
+texto.innerHTML += `<p>Arredondamento para baixo: ${Math.floor(numero)}</p>`;
+texto.innerHTML += `<p>Arredondamento para cima: ${Math.ceil(numero)}</p>`;
+texto.innerHTML += `<p>Com duas casas decimais: ${numero.toFixed(2)}</p>`;
