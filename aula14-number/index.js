@@ -9,7 +9,7 @@ console.log(num1.toString(2)) // Desta  maneira a propiedade apresenta o numero 
 
 console.log(num1.toFixed(2)) // Esta propiedade é usado para formatar um número de ponto flutuante e convertê-lo em uma string com uma quantidade específica de casas decimais, não altera o valor real da variavel. 
 
-console.log(Number.isInteger(num2)) //Esta função ira me retornar se o valor é inteiro sendo assim true ou false.
+console.log(Number.isInteger(num2)) // Esta função ira me retornar se o valor é inteiro sendo assim true ou false.
 //      //           //        //                    //                      //                   //     
 let temp = num1 *'ola, mundo'// isto me retorna um NaN, que é o not a number.
 console.log(temp) // resultado = NaN
