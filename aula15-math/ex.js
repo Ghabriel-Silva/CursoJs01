@@ -1,5 +1,5 @@
-/*getElementById --> É método utilizado para manipular elementos html com base no javascript, funcionando da seguinte forma,  este referencia o elemnto html com o javascript desta forma conseguimos acesssar e manipular o HTml da pagina com o Javascript.
-*sintase basica é a seguinte ---- const variavel-recebe = getElementById('id')---- ou seja o a minha variavel-recebe, recebera o valor do elemento Id que é esta referenciando o html.
+/*getElementById --> É método utilizado para manipular elementos html com base no javascript, funcionando da seguinte forma,  este referencia o elemento html com o javascript desta forma conseguimos acesssar e manipular o HTml da pagina com o Javascript.
+*sintase basica é a seguinte ---- const variavel-recebe = getElementById('id')---- ou seja  a minha variavel-recebe, recebera o valor do elemento Id que é esta referenciando o html.
 
 
 *innerHTml--> Permite manipular e modificar elementos html, esse elemeto esta presente em objetos don(Modelo de Obejto de Documento) e permite que você modifique o elemento interno do Html através de código.
