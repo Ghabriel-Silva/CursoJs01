@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(175, 249, 252);
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    place-items:center;
+}
+section{
+    background-color: rgb(45, 158, 124);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+}
+.title{
+    color: white;
+    font-size: 30px;
+}
+.form{
+    display: grid;
+    place-items:left; 
+    gap:5px;
+    font-size: 18px;
+    color: white;
+}
+input:focus{
+    background-color: rgb(43, 226, 134);
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+input{
+    font-size: 18px;
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+ }
+button{
+    margin: 20px auto 10px;
+    width: 80px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:none;
+    border-radius: 5px;
+}
+.cria-mensagem{
+  background-color: rgb(130, 255, 146);
+  width: 350px;
+}
+.normal{
+    color: rgb(50, 255, 61);
+}
+.atention{
+    color: rgb(248, 4, 4);
+}
